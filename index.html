@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links">
+            <input type="text" placeholder="Search" name="query" class="search">
+        </ul>
+        <div id="btn"><button onclick="turnOff(this)">Login</button></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="words">
+                <h1> ninja </h1>
+                <h2> noun </h2>
+                <h3>Plural: ninjas</h3>
+                <div id="likes"><button onclick="alert('Ninja was liked')">Likes</button></div>
+            </div>
+            <div class="definition">
+                <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjustu</a> </p>
+            </div>
+        </div>
+        <div class="col-2">
+            <h1>Dojonary is defined by YOU </h1>
+            <div id="define"><button onclick="hide(this)">Add Definition</button></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <div class="words">
+                <h1> ninja </h1>
+                <h2> noun </h2>
+                <h3>Plural: ninjas</h3>
+                <div id="likes"><button onclick="alert('Ninja was liked')">Likes</button></div>
+            </div>
+            <div class="definition">
+                <p>A <a href="#">programmer</a> who breaks downs problems with <a href="#">zen</a> like focus
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
